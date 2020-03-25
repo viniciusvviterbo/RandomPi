@@ -18,11 +18,19 @@ Calcule o valor de pi.
 
 A ideia básica é gerar dois números aleatórios com a função *random()* de modo a criar as coordenadas cartesianas de um ponto dentro de um plano. Depois disso, gera-se *n* coordenadas do mesmo modo:
 
+<<<<<<< HEAD
 ![Imagem do plano cartesiano com pontos gerados](resources/randompi_img1.png)
 
 Podemos agora considerar a área com os pontos acima como um quarto de um quadrado 2x2. Se desenharmos um círculo de raio 1 inteiramente dentro desse quadrado teremos:
 
 ![Imagem do plano cartesiano com pontos, círculo e quadrado](resources/randompi_img2.png)
+=======
+![Imagem do plano cartesiano com pontos gerados](https://viniciusvviterbo.github.io/resources/randompi_img1.png)
+
+Podemos agora considerar a área com os pontos acima como um quarto de um quadrado 2x2. Se desenharmos um círculo de raio 1 inteiramente dentro desse quadrado teremos:
+
+![Imagem do plano cartesiano com pontos, círculo e quadrado](https://viniciusvviterbo.github.io/resources/randompi_img2.png)
+>>>>>>> 9d667aa23998e74e38464ffe330c196882a81420
 
 O objetivo agora é contar o número de pontos dentro do círculo e todos os que estão dentro do quadrado.
 A proporção entre esses dois números será aproximadamente a mesma proporção entre a área do círculo e a área do quadrado.
@@ -31,7 +39,7 @@ A proporção entre esses dois números será aproximadamente a mesma proporçã
 
 Para saber se um ponto está ou não dentro do círculo, utiliza-se do Teorema de Pitágoras, assim, se a distância da coordenada de um ponto é menor que o tamanho do raio da circunferência, ele está dentro do círculo:
 
-> distância = (x^2 + y^2)^(1/2)
+> Distância = (x^2 + y^2)^(1/2)
 
 Sabe-se que a área de um círculo é:
 
