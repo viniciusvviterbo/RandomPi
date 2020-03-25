@@ -52,4 +52,4 @@ Dela podemos deduzir a fórmula:
 E assim, encontramos o valor de pi utilizando apenas a função *random()*.
 
 
-**[Problema baseado neste vídeo do canal 'Joma Tech'](https://www.youtube.com/watch?v=pvimAM_SLic&feature=youtu.be)**
+**[Implementação do problema apresentado neste vídeo](https://www.youtube.com/watch?v=pvimAM_SLic&feature=youtu.be)**
